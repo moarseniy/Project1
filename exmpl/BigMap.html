@@ -1,0 +1,2281 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_b98421757d9f4337b0c0f849c3ca7482 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_b98421757d9f4337b0c0f849c3ca7482" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_b98421757d9f4337b0c0f849c3ca7482 = L.map(
+        'map_b98421757d9f4337b0c0f849c3ca7482', {
+        center: [40.738, -73.98],
+        zoom: 14,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_c23788037a684309aa8a7d5ca5bfdf2b = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+    
+            var circle_marker_72fce358d6224e8999c114cd55fcc8d2 = L.circleMarker(
+                [40.7162469, -74.0334588],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -106.275,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_1c48d659e8304ca59b9ee4c873699a9d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cb96be84c0e9490b8a8d0916b437b232 = $('<div id="html_cb96be84c0e9490b8a8d0916b437b232" style="width: 100.0%; height: 100.0%;">Exchange Place<br> total departures: 2463.0<br> total arrivals: 337.5<br> net departures: -2125.5</div>')[0];
+                popup_1c48d659e8304ca59b9ee4c873699a9d.setContent(html_cb96be84c0e9490b8a8d0916b437b232);
+            
+
+            circle_marker_72fce358d6224e8999c114cd55fcc8d2.bindPopup(popup_1c48d659e8304ca59b9ee4c873699a9d)
+            ;
+
+            
+        
+    
+            var circle_marker_5d1064e73ff54fd5980db9419932dc67 = L.circleMarker(
+                [40.7141454, -74.0335519],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -8.275,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_ce3a6d02a2b04885bb5be37804a1a671 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f80b0013e63f4391971621b8a7aec043 = $('<div id="html_f80b0013e63f4391971621b8a7aec043" style="width: 100.0%; height: 100.0%;">Paulus Hook<br> total departures: 481.0<br> total arrivals: 315.5<br> net departures: -165.5</div>')[0];
+                popup_ce3a6d02a2b04885bb5be37804a1a671.setContent(html_f80b0013e63f4391971621b8a7aec043);
+            
+
+            circle_marker_5d1064e73ff54fd5980db9419932dc67.bindPopup(popup_ce3a6d02a2b04885bb5be37804a1a671)
+            ;
+
+            
+        
+    
+            var circle_marker_0d8e03f2e17f4f49b1ce5d795d2d87f3 = L.circleMarker(
+                [40.717732500000004, -74.04384499999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -4.375,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_a8d0f8ef0b654d3cb6970f02b7be23c0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a795edc43daa4ce9b90bf4cd1bf7c8c3 = $('<div id="html_a795edc43daa4ce9b90bf4cd1bf7c8c3" style="width: 100.0%; height: 100.0%;">City Hall<br> total departures: 495.5<br> total arrivals: 408.0<br> net departures: -87.5</div>')[0];
+                popup_a8d0f8ef0b654d3cb6970f02b7be23c0.setContent(html_a795edc43daa4ce9b90bf4cd1bf7c8c3);
+            
+
+            circle_marker_0d8e03f2e17f4f49b1ce5d795d2d87f3.bindPopup(popup_a8d0f8ef0b654d3cb6970f02b7be23c0)
+            ;
+
+            
+        
+    
+            var circle_marker_4dde4d9c0aab4263ba6e95c1f5b2af34 = L.circleMarker(
+                [40.71958612, -74.04311746],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -144.925,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_63e1afe09d2a4192a1ebba28efef887a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1a0f87a546e24cfe980795e6a771017f = $('<div id="html_1a0f87a546e24cfe980795e6a771017f" style="width: 100.0%; height: 100.0%;">Grove St PATH<br> total departures: 3641.5<br> total arrivals: 743.0<br> net departures: -2898.5</div>')[0];
+                popup_63e1afe09d2a4192a1ebba28efef887a.setContent(html_1a0f87a546e24cfe980795e6a771017f);
+            
+
+            circle_marker_4dde4d9c0aab4263ba6e95c1f5b2af34.bindPopup(popup_63e1afe09d2a4192a1ebba28efef887a)
+            ;
+
+            
+        
+    
+            var circle_marker_c738fca6d3d744228d1f1fa437df5f42 = L.circleMarker(
+                [40.721123600000006, -74.03805095],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.075,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_a347fd1b48114d9f80fea2aae3313664 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5bf49ebed040426dbea605a55a4d79b5 = $('<div id="html_5bf49ebed040426dbea605a55a4d79b5" style="width: 100.0%; height: 100.0%;">Warren St<br> total departures: 380.0<br> total arrivals: 541.5<br> net departures: 161.5</div>')[0];
+                popup_a347fd1b48114d9f80fea2aae3313664.setContent(html_5bf49ebed040426dbea605a55a4d79b5);
+            
+
+            circle_marker_c738fca6d3d744228d1f1fa437df5f42.bindPopup(popup_a347fd1b48114d9f80fea2aae3313664)
+            ;
+
+            
+        
+    
+            var circle_marker_ff98b5fbc6dc4b66ad77efd2d2cba792 = L.circleMarker(
+                [40.710108700000006, -74.0858489],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -1.05,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_e99702645407439da9e0de56d4c5d6c1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_663a58166d554bfd810c925218e38b0f = $('<div id="html_663a58166d554bfd810c925218e38b0f" style="width: 100.0%; height: 100.0%;">NJCU<br> total departures: 25.5<br> total arrivals: 4.5<br> net departures: -21.0</div>')[0];
+                popup_e99702645407439da9e0de56d4c5d6c1.setContent(html_663a58166d554bfd810c925218e38b0f);
+            
+
+            circle_marker_ff98b5fbc6dc4b66ad77efd2d2cba792.bindPopup(popup_e99702645407439da9e0de56d4c5d6c1)
+            ;
+
+            
+        
+    
+            var circle_marker_0cf5e25073fc43a5a50669d66494e083 = L.circleMarker(
+                [40.714402, -74.0887723],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -0.25,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_bf5626c2817242158191d55f51d42415 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ca0ea7aa17c24a0486efafbd0550b3ab = $('<div id="html_ca0ea7aa17c24a0486efafbd0550b3ab" style="width: 100.0%; height: 100.0%;">West Side Light Rail<br> total departures: 15.5<br> total arrivals: 10.5<br> net departures: -5.0</div>')[0];
+                popup_bf5626c2817242158191d55f51d42415.setContent(html_ca0ea7aa17c24a0486efafbd0550b3ab);
+            
+
+            circle_marker_0cf5e25073fc43a5a50669d66494e083.bindPopup(popup_bf5626c2817242158191d55f51d42415)
+            ;
+
+            
+        
+    
+            var circle_marker_19c11da8bc104a4eb82db88af99338b2 = L.circleMarker(
+                [40.71046702, -74.07003879999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.55,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_63ec4272a88d408285060d4bcc821a10 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0d59b090944d4b60aee9626ca494a9ce = $('<div id="html_0d59b090944d4b60aee9626ca494a9ce" style="width: 100.0%; height: 100.0%;">Garfield Ave Station<br> total departures: 16.0<br> total arrivals: 67.0<br> net departures: 51.0</div>')[0];
+                popup_63ec4272a88d408285060d4bcc821a10.setContent(html_0d59b090944d4b60aee9626ca494a9ce);
+            
+
+            circle_marker_19c11da8bc104a4eb82db88af99338b2.bindPopup(popup_63ec4272a88d408285060d4bcc821a10)
+            ;
+
+            
+        
+    
+            var circle_marker_0f2013b120d7434b9dbdb87fcd820f44 = L.circleMarker(
+                [40.71821129999999, -74.08363940000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.425,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_c7d45b1508ca49e48cf114765f7b5843 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_736837635b864241a7e5fcdc9a52239d = $('<div id="html_736837635b864241a7e5fcdc9a52239d" style="width: 100.0%; height: 100.0%;">Union St<br> total departures: 19.5<br> total arrivals: 28.0<br> net departures: 8.5</div>')[0];
+                popup_c7d45b1508ca49e48cf114765f7b5843.setContent(html_736837635b864241a7e5fcdc9a52239d);
+            
+
+            circle_marker_0f2013b120d7434b9dbdb87fcd820f44.bindPopup(popup_c7d45b1508ca49e48cf114765f7b5843)
+            ;
+
+            
+        
+    
+            var circle_marker_66614cae78ee4d1dbe6fab9b02649db3 = L.circleMarker(
+                [40.711242299999995, -74.0557013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.375,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_25315782084b41c78cf6191daf48186d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_959433b2722a45a2ba16c57af001f8e0 = $('<div id="html_959433b2722a45a2ba16c57af001f8e0" style="width: 100.0%; height: 100.0%;">Liberty Light Rail<br> total departures: 228.0<br> total arrivals: 395.5<br> net departures: 167.5</div>')[0];
+                popup_25315782084b41c78cf6191daf48186d.setContent(html_959433b2722a45a2ba16c57af001f8e0);
+            
+
+            circle_marker_66614cae78ee4d1dbe6fab9b02649db3.bindPopup(popup_25315782084b41c78cf6191daf48186d)
+            ;
+
+            
+        
+    
+            var circle_marker_08b063b066924cb1ba950f6c7e1c4c81 = L.circleMarker(
+                [40.724605100000005, -74.07840595],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.75,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_5a7cd4f754684af989880fb41c807844 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_625035e22eab4749b27ecb0e013d7663 = $('<div id="html_625035e22eab4749b27ecb0e013d7663" style="width: 100.0%; height: 100.0%;">Lincoln Park<br> total departures: 45.5<br> total arrivals: 120.5<br> net departures: 75.0</div>')[0];
+                popup_5a7cd4f754684af989880fb41c807844.setContent(html_625035e22eab4749b27ecb0e013d7663);
+            
+
+            circle_marker_08b063b066924cb1ba950f6c7e1c4c81.bindPopup(popup_5a7cd4f754684af989880fb41c807844)
+            ;
+
+            
+        
+    
+            var circle_marker_2cd8e27d7772480ba73bcb1efe698dc9 = L.circleMarker(
+                [40.72533993, -74.06762213],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.075,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_46ce04df12d044b69a9318f9f84ba778 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_17d2d12dcb59412c8e3bc732dd2fffd9 = $('<div id="html_17d2d12dcb59412c8e3bc732dd2fffd9" style="width: 100.0%; height: 100.0%;">McGinley Square<br> total departures: 98.5<br> total arrivals: 340.0<br> net departures: 241.5</div>')[0];
+                popup_46ce04df12d044b69a9318f9f84ba778.setContent(html_17d2d12dcb59412c8e3bc732dd2fffd9);
+            
+
+            circle_marker_2cd8e27d7772480ba73bcb1efe698dc9.bindPopup(popup_46ce04df12d044b69a9318f9f84ba778)
+            ;
+
+            
+        
+    
+            var circle_marker_498d1fdaa2a34693b9b579baf434584f = L.circleMarker(
+                [40.73074263, -74.06378388],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -23.825,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_8f6252de59094d9999c39ac856bc3176 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c9933283fa1f4e29be2efb61f761622f = $('<div id="html_c9933283fa1f4e29be2efb61f761622f" style="width: 100.0%; height: 100.0%;">Sip Ave<br> total departures: 831.5<br> total arrivals: 355.0<br> net departures: -476.5</div>')[0];
+                popup_8f6252de59094d9999c39ac856bc3176.setContent(html_c9933283fa1f4e29be2efb61f761622f);
+            
+
+            circle_marker_498d1fdaa2a34693b9b579baf434584f.bindPopup(popup_8f6252de59094d9999c39ac856bc3176)
+            ;
+
+            
+        
+    
+            var circle_marker_991bdc9115ca4ebca0326753fa650c65 = L.circleMarker(
+                [40.7443187, -74.04399090000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_6313c2888f4541c99dfec97ef5954cda = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_14fb9e00eb9047bb92da4d007af30fc9 = $('<div id="html_14fb9e00eb9047bb92da4d007af30fc9" style="width: 100.0%; height: 100.0%;">Riverview Park<br> total departures: 58.5<br> total arrivals: 90.5<br> net departures: 32.0</div>')[0];
+                popup_6313c2888f4541c99dfec97ef5954cda.setContent(html_14fb9e00eb9047bb92da4d007af30fc9);
+            
+
+            circle_marker_991bdc9115ca4ebca0326753fa650c65.bindPopup(popup_6313c2888f4541c99dfec97ef5954cda)
+            ;
+
+            
+        
+    
+            var circle_marker_b1c7d22ae47443d38cd451a5334a1eb2 = L.circleMarker(
+                [40.752559000000005, -74.044725],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -2.25,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_8b71ddde32ad4657915314984380df1c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_549788fa8e3c444ea3f79c596fdd9363 = $('<div id="html_549788fa8e3c444ea3f79c596fdd9363" style="width: 100.0%; height: 100.0%;">North St<br> total departures: 65.5<br> total arrivals: 20.5<br> net departures: -45.0</div>')[0];
+                popup_8b71ddde32ad4657915314984380df1c.setContent(html_549788fa8e3c444ea3f79c596fdd9363);
+            
+
+            circle_marker_b1c7d22ae47443d38cd451a5334a1eb2.bindPopup(popup_8b71ddde32ad4657915314984380df1c)
+            ;
+
+            
+        
+    
+            var circle_marker_be186352b2304b2d828b5cef9a122cf6 = L.circleMarker(
+                [40.74871595, -74.04044329999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_fe4b21ca1b1d410484669ba30b89a621 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_145da14d48b6498cb5eac14a2ab1252c = $('<div id="html_145da14d48b6498cb5eac14a2ab1252c" style="width: 100.0%; height: 100.0%;">Heights Elevator<br> total departures: 75.5<br> total arrivals: 95.5<br> net departures: 20.0</div>')[0];
+                popup_fe4b21ca1b1d410484669ba30b89a621.setContent(html_145da14d48b6498cb5eac14a2ab1252c);
+            
+
+            circle_marker_be186352b2304b2d828b5cef9a122cf6.bindPopup(popup_fe4b21ca1b1d410484669ba30b89a621)
+            ;
+
+            
+        
+    
+            var circle_marker_79ca21b6e3074124aaf7d8edaaf51d9e = L.circleMarker(
+                [40.728744799999994, -74.03210820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.125,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_7e4dc3cc6d8c4472945724cb86b2755b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5ff30da8096f4245bf2ff29ce89d595c = $('<div id="html_5ff30da8096f4245bf2ff29ce89d595c" style="width: 100.0%; height: 100.0%;">Newport Pkwy<br> total departures: 385.0<br> total arrivals: 587.5<br> net departures: 202.5</div>')[0];
+                popup_7e4dc3cc6d8c4472945724cb86b2755b.setContent(html_5ff30da8096f4245bf2ff29ce89d595c);
+            
+
+            circle_marker_79ca21b6e3074124aaf7d8edaaf51d9e.bindPopup(popup_7e4dc3cc6d8c4472945724cb86b2755b)
+            ;
+
+            
+        
+    
+            var circle_marker_402a773ade37407a85bc471d422e5ede = L.circleMarker(
+                [40.711130499999996, -74.0788855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.175,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_75862597b193485495dbffa6242cccd7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ef06fc9cfdc04a758e4cc10c009b616c = $('<div id="html_ef06fc9cfdc04a758e4cc10c009b616c" style="width: 100.0%; height: 100.0%;">MLK Light Rail<br> total departures: 3.5<br> total arrivals: 7.0<br> net departures: 3.5</div>')[0];
+                popup_75862597b193485495dbffa6242cccd7.setContent(html_ef06fc9cfdc04a758e4cc10c009b616c);
+            
+
+            circle_marker_402a773ade37407a85bc471d422e5ede.bindPopup(popup_75862597b193485495dbffa6242cccd7)
+            ;
+
+            
+        
+    
+            var circle_marker_b2a332ded8084b519d240ff08ecd8369 = L.circleMarker(
+                [40.737711, -74.066921],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -4.95,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_20266fd483e94fdfb2bddd4d6b868bec = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9d9d220df0f3450d977d6cd6130844f7 = $('<div id="html_9d9d220df0f3450d977d6cd6130844f7" style="width: 100.0%; height: 100.0%;">Dey St<br> total departures: 156.5<br> total arrivals: 57.5<br> net departures: -99.0</div>')[0];
+                popup_20266fd483e94fdfb2bddd4d6b868bec.setContent(html_9d9d220df0f3450d977d6cd6130844f7);
+            
+
+            circle_marker_b2a332ded8084b519d240ff08ecd8369.bindPopup(popup_20266fd483e94fdfb2bddd4d6b868bec)
+            ;
+
+            
+        
+    
+            var circle_marker_1dccb86a6929494c9a00395985c8c401 = L.circleMarker(
+                [40.7272235, -74.03375890000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -29.95,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_1ef96bc1a26945e2bf522ede6318478e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1edb7ea2dbb04099b86c61ad6f259675 = $('<div id="html_1edb7ea2dbb04099b86c61ad6f259675" style="width: 100.0%; height: 100.0%;">Newport PATH<br> total departures: 1080.5<br> total arrivals: 481.5<br> net departures: -599.0</div>')[0];
+                popup_1ef96bc1a26945e2bf522ede6318478e.setContent(html_1edb7ea2dbb04099b86c61ad6f259675);
+            
+
+            circle_marker_1dccb86a6929494c9a00395985c8c401.bindPopup(popup_1ef96bc1a26945e2bf522ede6318478e)
+            ;
+
+            
+        
+    
+            var circle_marker_abafa9ca243940e0a41f092660424904 = L.circleMarker(
+                [40.72759597, -74.04424731],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 64.775,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_d0e1d98e349c4decb641d0dc18214663 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_85e8e26a836d4a43b3d1f88a4783a8c5 = $('<div id="html_85e8e26a836d4a43b3d1f88a4783a8c5" style="width: 100.0%; height: 100.0%;">Hamilton Park<br> total departures: 458.0<br> total arrivals: 1753.5<br> net departures: 1295.5</div>')[0];
+                popup_d0e1d98e349c4decb641d0dc18214663.setContent(html_85e8e26a836d4a43b3d1f88a4783a8c5);
+            
+
+            circle_marker_abafa9ca243940e0a41f092660424904.bindPopup(popup_d0e1d98e349c4decb641d0dc18214663)
+            ;
+
+            
+        
+    
+            var circle_marker_5727337f29914c82bfe6cc6e32c02437 = L.circleMarker(
+                [40.71653978, -74.04963791],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.1,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_b6ac12aba60a490783a5a9b9d5716179 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_772262cd68e54cf3b7ec87a14ec52bfa = $('<div id="html_772262cd68e54cf3b7ec87a14ec52bfa" style="width: 100.0%; height: 100.0%;">JC Medical Center<br> total departures: 251.5<br> total arrivals: 293.5<br> net departures: 42.0</div>')[0];
+                popup_b6ac12aba60a490783a5a9b9d5716179.setContent(html_772262cd68e54cf3b7ec87a14ec52bfa);
+            
+
+            circle_marker_5727337f29914c82bfe6cc6e32c02437.bindPopup(popup_b6ac12aba60a490783a5a9b9d5716179)
+            ;
+
+            
+        
+    
+            var circle_marker_73bd47a2b2344251a1c729f7650960e9 = L.circleMarker(
+                [40.7311689, -74.0575736],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.05,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_a86d5705c50e4b79bff6ae35c79694ab = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f1b2f161f558438582116732c5b17d9f = $('<div id="html_f1b2f161f558438582116732c5b17d9f" style="width: 100.0%; height: 100.0%;">Hilltop<br> total departures: 108.0<br> total arrivals: 169.0<br> net departures: 61.0</div>')[0];
+                popup_a86d5705c50e4b79bff6ae35c79694ab.setContent(html_f1b2f161f558438582116732c5b17d9f);
+            
+
+            circle_marker_73bd47a2b2344251a1c729f7650960e9.bindPopup(popup_a86d5705c50e4b79bff6ae35c79694ab)
+            ;
+
+            
+        
+    
+            var circle_marker_bae833e69b3c41eb916befd30da24884 = L.circleMarker(
+                [40.7376037, -74.05247829999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.525,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_8a56b28764254db9b57f84f576264997 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c2e7eaf9316d45d8a555e2404237c5d5 = $('<div id="html_c2e7eaf9316d45d8a555e2404237c5d5" style="width: 100.0%; height: 100.0%;">Oakland Ave<br> total departures: 47.0<br> total arrivals: 277.5<br> net departures: 230.5</div>')[0];
+                popup_8a56b28764254db9b57f84f576264997.setContent(html_c2e7eaf9316d45d8a555e2404237c5d5);
+            
+
+            circle_marker_bae833e69b3c41eb916befd30da24884.bindPopup(popup_8a56b28764254db9b57f84f576264997)
+            ;
+
+            
+        
+    
+            var circle_marker_356ddd44e3c74df1b76d7bf8640b1caa = L.circleMarker(
+                [40.7241765, -74.05065640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.65,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_fb5b2e2475b343efae7c76ecc579d4e0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3b117fdc6113450091623e41aabe376a = $('<div id="html_3b117fdc6113450091623e41aabe376a" style="width: 100.0%; height: 100.0%;">Brunswick St<br> total departures: 159.0<br> total arrivals: 512.0<br> net departures: 353.0</div>')[0];
+                popup_fb5b2e2475b343efae7c76ecc579d4e0.setContent(html_3b117fdc6113450091623e41aabe376a);
+            
+
+            circle_marker_356ddd44e3c74df1b76d7bf8640b1caa.bindPopup(popup_fb5b2e2475b343efae7c76ecc579d4e0)
+            ;
+
+            
+        
+    
+            var circle_marker_9f9b46d74da84874bf8fbe3345833015 = L.circleMarker(
+                [40.74267714, -74.05178863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.175,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_81eb939df7554bc9a8c753ad521d7c6d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d23bdd0873ee4dd9af8c69ad73c8d443 = $('<div id="html_d23bdd0873ee4dd9af8c69ad73c8d443" style="width: 100.0%; height: 100.0%;">Pershing Field<br> total departures: 54.5<br> total arrivals: 198.0<br> net departures: 143.5</div>')[0];
+                popup_81eb939df7554bc9a8c753ad521d7c6d.setContent(html_d23bdd0873ee4dd9af8c69ad73c8d443);
+            
+
+            circle_marker_9f9b46d74da84874bf8fbe3345833015.bindPopup(popup_81eb939df7554bc9a8c753ad521d7c6d)
+            ;
+
+            
+        
+    
+            var circle_marker_82ddad84e64b4e47ae925415e1ff7d5a = L.circleMarker(
+                [40.72152515, -74.04630454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.625,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_804d25fc20b742589c825f9dc5760374 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c2c9e36d274941529d5e525c9c7cf75f = $('<div id="html_c2c9e36d274941529d5e525c9c7cf75f" style="width: 100.0%; height: 100.0%;">Newark Ave<br> total departures: 461.0<br> total arrivals: 493.5<br> net departures: 32.5</div>')[0];
+                popup_804d25fc20b742589c825f9dc5760374.setContent(html_c2c9e36d274941529d5e525c9c7cf75f);
+            
+
+            circle_marker_82ddad84e64b4e47ae925415e1ff7d5a.bindPopup(popup_804d25fc20b742589c825f9dc5760374)
+            ;
+
+            
+        
+    
+            var circle_marker_068ee5d7279d43a7b034df35a69fa1d3 = L.circleMarker(
+                [40.73478582, -74.05044364],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.775,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_9fdbef4f767540db814566e5714b3186 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f71f26f02fc8480b8695b8b19ea1378e = $('<div id="html_f71f26f02fc8480b8695b8b19ea1378e" style="width: 100.0%; height: 100.0%;">Christ Hospital<br> total departures: 25.5<br> total arrivals: 201.0<br> net departures: 175.5</div>')[0];
+                popup_9fdbef4f767540db814566e5714b3186.setContent(html_f71f26f02fc8480b8695b8b19ea1378e);
+            
+
+            circle_marker_068ee5d7279d43a7b034df35a69fa1d3.bindPopup(popup_9fdbef4f767540db814566e5714b3186)
+            ;
+
+            
+        
+    
+            var circle_marker_68a652654dbb434bbe170c457c5869a6 = L.circleMarker(
+                [40.71848892, -74.04772663],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_181028ad69264df381334c3b20f624fc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_43be3d7cc60646679463c64d22af920b = $('<div id="html_43be3d7cc60646679463c64d22af920b" style="width: 100.0%; height: 100.0%;">Van Vorst Park<br> total departures: 243.5<br> total arrivals: 623.5<br> net departures: 380.0</div>')[0];
+                popup_181028ad69264df381334c3b20f624fc.setContent(html_43be3d7cc60646679463c64d22af920b);
+            
+
+            circle_marker_68a652654dbb434bbe170c457c5869a6.bindPopup(popup_181028ad69264df381334c3b20f624fc)
+            ;
+
+            
+        
+    
+            var circle_marker_0fccd05da56b424b8c192341d97ac349 = L.circleMarker(
+                [40.712774200000005, -74.03648570000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_8bb915d3287a434ea7c5f5e537fa84e1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9bd9c21fa97a430f90a68c24241253db = $('<div id="html_9bd9c21fa97a430f90a68c24241253db" style="width: 100.0%; height: 100.0%;">Essex Light Rail<br> total departures: 388.5<br> total arrivals: 598.5<br> net departures: 210.0</div>')[0];
+                popup_8bb915d3287a434ea7c5f5e537fa84e1.setContent(html_9bd9c21fa97a430f90a68c24241253db);
+            
+
+            circle_marker_0fccd05da56b424b8c192341d97ac349.bindPopup(popup_8bb915d3287a434ea7c5f5e537fa84e1)
+            ;
+
+            
+        
+    
+            var circle_marker_c60fb165dd264aa9a2924a61db034318 = L.circleMarker(
+                [40.7467299, -74.0492509],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -0.275,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_1957061b2c2a4057a5546a082c70e359 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_beedffb6924c4d6ba6d8d67bbf366d64 = $('<div id="html_beedffb6924c4d6ba6d8d67bbf366d64" style="width: 100.0%; height: 100.0%;">Central Ave<br> total departures: 22.0<br> total arrivals: 16.5<br> net departures: -5.5</div>')[0];
+                popup_1957061b2c2a4057a5546a082c70e359.setContent(html_beedffb6924c4d6ba6d8d67bbf366d64);
+            
+
+            circle_marker_c60fb165dd264aa9a2924a61db034318.bindPopup(popup_1957061b2c2a4057a5546a082c70e359)
+            ;
+
+            
+        
+    
+            var circle_marker_326ec02f48b24439b61cc9b807e84a23 = L.circleMarker(
+                [40.6970299, -74.09693659999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.55,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_e733691d4fdc47588d95dbfbdbb06632 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7561cb7f348749b2a8ecc8f37494cb6d = $('<div id="html_7561cb7f348749b2a8ecc8f37494cb6d" style="width: 100.0%; height: 100.0%;">Columbia Park<br> total departures: 4.5<br> total arrivals: 15.5<br> net departures: 11.0</div>')[0];
+                popup_e733691d4fdc47588d95dbfbdbb06632.setContent(html_7561cb7f348749b2a8ecc8f37494cb6d);
+            
+
+            circle_marker_326ec02f48b24439b61cc9b807e84a23.bindPopup(popup_e733691d4fdc47588d95dbfbdbb06632)
+            ;
+
+            
+        
+    
+            var circle_marker_75bb72354e114fcf92a16bff63650f74 = L.circleMarker(
+                [40.69865054, -74.08207968],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -0.025,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_61c394fc8706443581959c8f34628848 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_49d1570169bd45ceb5abe5eb6e5d8dee = $('<div id="html_49d1570169bd45ceb5abe5eb6e5d8dee" style="width: 100.0%; height: 100.0%;">Bayside Park<br> total departures: 7.5<br> total arrivals: 7.0<br> net departures: -0.5</div>')[0];
+                popup_61c394fc8706443581959c8f34628848.setContent(html_49d1570169bd45ceb5abe5eb6e5d8dee);
+            
+
+            circle_marker_75bb72354e114fcf92a16bff63650f74.bindPopup(popup_61c394fc8706443581959c8f34628848)
+            ;
+
+            
+        
+    
+            var circle_marker_28bc89c49826484aae9c3bcc6a9736ad = L.circleMarker(
+                [40.73496102, -74.05950308],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_80ef6278206045cea95a2936090576c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8c03eed4ddd541ff801e9bb10570bc30 = $('<div id="html_8c03eed4ddd541ff801e9bb10570bc30" style="width: 100.0%; height: 100.0%;">5 Corners Library<br> total departures: 69.5<br> total arrivals: 49.5<br> net departures: -20.0</div>')[0];
+                popup_80ef6278206045cea95a2936090576c8.setContent(html_8c03eed4ddd541ff801e9bb10570bc30);
+            
+
+            circle_marker_28bc89c49826484aae9c3bcc6a9736ad.bindPopup(popup_80ef6278206045cea95a2936090576c8)
+            ;
+
+            
+        
+    
+            var circle_marker_c901658f14b545fbb2e5ecbb665fc876 = L.circleMarker(
+                [40.7236589, -74.0641943],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_9355a25df2084c389b5d8737be55f474 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7f7633918ead4439ad2d324ae4d7f6a5 = $('<div id="html_7f7633918ead4439ad2d324ae4d7f6a5" style="width: 100.0%; height: 100.0%;">Baldwin at Montgomery<br> total departures: 62.5<br> total arrivals: 258.5<br> net departures: 196.0</div>')[0];
+                popup_9355a25df2084c389b5d8737be55f474.setContent(html_7f7633918ead4439ad2d324ae4d7f6a5);
+            
+
+            circle_marker_c901658f14b545fbb2e5ecbb665fc876.bindPopup(popup_9355a25df2084c389b5d8737be55f474)
+            ;
+
+            
+        
+    
+            var circle_marker_3d19411613f449b9bbd81d037e6635a2 = L.circleMarker(
+                [40.71241882, -74.03852552],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 29.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_415120f2df3f4aabb13066f102fd04b6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4f6a6d23413246f39abb7281c708b257 = $('<div id="html_4f6a6d23413246f39abb7281c708b257" style="width: 100.0%; height: 100.0%;">Morris Canal<br> total departures: 235.5<br> total arrivals: 827.5<br> net departures: 592.0</div>')[0];
+                popup_415120f2df3f4aabb13066f102fd04b6.setContent(html_4f6a6d23413246f39abb7281c708b257);
+            
+
+            circle_marker_3d19411613f449b9bbd81d037e6635a2.bindPopup(popup_415120f2df3f4aabb13066f102fd04b6)
+            ;
+
+            
+        
+    
+            var circle_marker_d9d7d7a0814649418be729493fde59bd = L.circleMarker(
+                [40.71346383, -74.06285852],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.7,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_917236ef106d466fa4a63a171d1d65ab = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c4854d4b57254588b225ede6a92a6b66 = $('<div id="html_c4854d4b57254588b225ede6a92a6b66" style="width: 100.0%; height: 100.0%;">Lafayette Park<br> total departures: 42.0<br> total arrivals: 176.0<br> net departures: 134.0</div>')[0];
+                popup_917236ef106d466fa4a63a171d1d65ab.setContent(html_c4854d4b57254588b225ede6a92a6b66);
+            
+
+            circle_marker_d9d7d7a0814649418be729493fde59bd.bindPopup(popup_917236ef106d466fa4a63a171d1d65ab)
+            ;
+
+            
+        
+    
+            var circle_marker_d673e0e4d98145318147f6dbd18a248e = L.circleMarker(
+                [40.72601173, -74.05038893],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.1,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_7a7b150a11d94aac805040622b327a33 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6afa1cddf7fb4e278514d7d396eaac82 = $('<div id="html_6afa1cddf7fb4e278514d7d396eaac82" style="width: 100.0%; height: 100.0%;">Brunswick & 6th<br> total departures: 136.5<br> total arrivals: 478.5<br> net departures: 342.0</div>')[0];
+                popup_7a7b150a11d94aac805040622b327a33.setContent(html_6afa1cddf7fb4e278514d7d396eaac82);
+            
+
+            circle_marker_d673e0e4d98145318147f6dbd18a248e.bindPopup(popup_7a7b150a11d94aac805040622b327a33)
+            ;
+
+            
+        
+    
+            var circle_marker_89a57fbe37154f7a93eb849e8a62bc1a = L.circleMarker(
+                [40.72528911, -74.04557168],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 27.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_30382f30a5ee460a9188797223e660b0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dcc89653809a4f7d8f9bceb479c0be92 = $('<div id="html_dcc89653809a4f7d8f9bceb479c0be92" style="width: 100.0%; height: 100.0%;">Jersey & 6th St<br> total departures: 99.0<br> total arrivals: 639.0<br> net departures: 540.0</div>')[0];
+                popup_30382f30a5ee460a9188797223e660b0.setContent(html_dcc89653809a4f7d8f9bceb479c0be92);
+            
+
+            circle_marker_89a57fbe37154f7a93eb849e8a62bc1a.bindPopup(popup_30382f30a5ee460a9188797223e660b0)
+            ;
+
+            
+        
+    
+            var circle_marker_6cc898f104c94a99852110491e008a03 = L.circleMarker(
+                [40.69263997, -74.08801228],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -0.375,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_a7574cb98c39434aafbc31ca48e06e71 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0bc844d07d60427da08f91f49843f067 = $('<div id="html_0bc844d07d60427da08f91f49843f067" style="width: 100.0%; height: 100.0%;">Danforth Light Rail<br> total departures: 12.5<br> total arrivals: 5.0<br> net departures: -7.5</div>')[0];
+                popup_a7574cb98c39434aafbc31ca48e06e71.setContent(html_0bc844d07d60427da08f91f49843f067);
+            
+
+            circle_marker_6cc898f104c94a99852110491e008a03.bindPopup(popup_a7574cb98c39434aafbc31ca48e06e71)
+            ;
+
+            
+        
+    
+            var circle_marker_9e336529b7d94aed825e847c6a0f8dc8 = L.circleMarker(
+                [40.72333159, -74.04595256],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.025,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_8a16603b2e2345a8bef9b8ec8e61db53 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3aa3d9bfd6c141518f9afe0cbe2e941c = $('<div id="html_3aa3d9bfd6c141518f9afe0cbe2e941c" style="width: 100.0%; height: 100.0%;">Jersey & 3rd<br> total departures: 208.5<br> total arrivals: 429.0<br> net departures: 220.5</div>')[0];
+                popup_8a16603b2e2345a8bef9b8ec8e61db53.setContent(html_3aa3d9bfd6c141518f9afe0cbe2e941c);
+            
+
+            circle_marker_9e336529b7d94aed825e847c6a0f8dc8.bindPopup(popup_8a16603b2e2345a8bef9b8ec8e61db53)
+            ;
+
+            
+        
+    
+            var circle_marker_973f42dc0bd943018040359a85dbe502 = L.circleMarker(
+                [40.72165072, -74.04288411],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -5.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_0472c490da3e4079a391d4f8a66fcf16 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f11dd40a41084f379646eb6adbe88ed0 = $('<div id="html_f11dd40a41084f379646eb6adbe88ed0" style="width: 100.0%; height: 100.0%;">Manila & 1st<br> total departures: 337.5<br> total arrivals: 221.5<br> net departures: -116.0</div>')[0];
+                popup_0472c490da3e4079a391d4f8a66fcf16.setContent(html_f11dd40a41084f379646eb6adbe88ed0);
+            
+
+            circle_marker_973f42dc0bd943018040359a85dbe502.bindPopup(popup_0472c490da3e4079a391d4f8a66fcf16)
+            ;
+
+            
+        
+    
+            var circle_marker_df7c566e4ec94a52ac8e9d66b8a00d63 = L.circleMarker(
+                [40.70495752, -74.08593088],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -0.125,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_7a3880682ca24328ba2abab9bcb5d18d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_08b1f049efda4362aaf143e3ee0cf225 = $('<div id="html_08b1f049efda4362aaf143e3ee0cf225" style="width: 100.0%; height: 100.0%;">Bethune Center<br> total departures: 3.5<br> total arrivals: 1.0<br> net departures: -2.5</div>')[0];
+                popup_7a3880682ca24328ba2abab9bcb5d18d.setContent(html_08b1f049efda4362aaf143e3ee0cf225);
+            
+
+            circle_marker_df7c566e4ec94a52ac8e9d66b8a00d63.bindPopup(popup_7a3880682ca24328ba2abab9bcb5d18d)
+            ;
+
+            
+        
+    
+            var circle_marker_11f99984c80343d39fc12cda6d00873b = L.circleMarker(
+                [40.718355200000005, -74.03891444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -3.575,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_0fcab9d10104408eb1525f7297807218 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_720e984c8ba14569930eeea2df45cdab = $('<div id="html_720e984c8ba14569930eeea2df45cdab" style="width: 100.0%; height: 100.0%;">Columbus Drive<br> total departures: 384.0<br> total arrivals: 312.5<br> net departures: -71.5</div>')[0];
+                popup_0fcab9d10104408eb1525f7297807218.setContent(html_720e984c8ba14569930eeea2df45cdab);
+            
+
+            circle_marker_11f99984c80343d39fc12cda6d00873b.bindPopup(popup_0fcab9d10104408eb1525f7297807218)
+            ;
+
+            
+        
+    
+            var circle_marker_16331de6734e432bbaa60fb6533a8a4e = L.circleMarker(
+                [40.71458404, -74.04281706],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14.85,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_2be6f26e7d584ffa9588ad513e5670cc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0bd5dbd7e93c4392a5fb3d7d1b431e5d = $('<div id="html_0bd5dbd7e93c4392a5fb3d7d1b431e5d" style="width: 100.0%; height: 100.0%;">Marin Light Rail<br> total departures: 244.0<br> total arrivals: 541.0<br> net departures: 297.0</div>')[0];
+                popup_2be6f26e7d584ffa9588ad513e5670cc.setContent(html_0bd5dbd7e93c4392a5fb3d7d1b431e5d);
+            
+
+            circle_marker_16331de6734e432bbaa60fb6533a8a4e.bindPopup(popup_2be6f26e7d584ffa9588ad513e5670cc)
+            ;
+
+            
+        
+    
+            var circle_marker_9f9da9c6ee8f4d0da6bf945921a005ce = L.circleMarker(
+                [40.71435837, -74.06661093],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.95,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_ee7243a95292417b9fb9efe7db51dad4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e5485f9efbc74d1393ba628feaeabd26 = $('<div id="html_e5485f9efbc74d1393ba628feaeabd26" style="width: 100.0%; height: 100.0%;">Communipaw & Berry Lane<br> total departures: 40.0<br> total arrivals: 79.0<br> net departures: 39.0</div>')[0];
+                popup_ee7243a95292417b9fb9efe7db51dad4.setContent(html_e5485f9efbc74d1393ba628feaeabd26);
+            
+
+            circle_marker_9f9da9c6ee8f4d0da6bf945921a005ce.bindPopup(popup_ee7243a95292417b9fb9efe7db51dad4)
+            ;
+
+            
+        
+    
+            var circle_marker_4954bec05f084d9a99bada4044f1b715 = L.circleMarker(
+                [40.72568548, -74.04879034],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14.775,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_6b3f02db2c834080a3fde9b1fbb6516b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7d0dfec094aa45a9b00834eb927dea54 = $('<div id="html_7d0dfec094aa45a9b00834eb927dea54" style="width: 100.0%; height: 100.0%;">Monmouth and 6th<br> total departures: 60.0<br> total arrivals: 355.5<br> net departures: 295.5</div>')[0];
+                popup_6b3f02db2c834080a3fde9b1fbb6516b.setContent(html_7d0dfec094aa45a9b00834eb927dea54);
+            
+
+            circle_marker_4954bec05f084d9a99bada4044f1b715.bindPopup(popup_6b3f02db2c834080a3fde9b1fbb6516b)
+            ;
+
+            
+        
+    
+            var circle_marker_ee996c4b041b4cb69a5a8cf3b35fdedc = L.circleMarker(
+                [40.72163014, -74.04996783],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.975,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_e2aa043956de49f2a44e74fd6e8364f1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_33cd707d4e6245e0ad2f0d1f4edf1970 = $('<div id="html_33cd707d4e6245e0ad2f0d1f4edf1970" style="width: 100.0%; height: 100.0%;">Dixon Mills<br> total departures: 107.0<br> total arrivals: 306.5<br> net departures: 199.5</div>')[0];
+                popup_e2aa043956de49f2a44e74fd6e8364f1.setContent(html_33cd707d4e6245e0ad2f0d1f4edf1970);
+            
+
+            circle_marker_ee996c4b041b4cb69a5a8cf3b35fdedc.bindPopup(popup_e2aa043956de49f2a44e74fd6e8364f1)
+            ;
+
+            
+        
+    
+            var circle_marker_919a7422376942ad9c7c722b22d2279f = L.circleMarker(
+                [40.7192822, -74.07126188],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.05,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_1b1b47e1e88f4ae085ad3e97d6ddac7e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6a7aa15f8e3744b3a7c833538c68958f = $('<div id="html_6a7aa15f8e3744b3a7c833538c68958f" style="width: 100.0%; height: 100.0%;">Astor Place<br> total departures: 46.5<br> total arrivals: 187.5<br> net departures: 141.0</div>')[0];
+                popup_1b1b47e1e88f4ae085ad3e97d6ddac7e.setContent(html_6a7aa15f8e3744b3a7c833538c68958f);
+            
+
+            circle_marker_919a7422376942ad9c7c722b22d2279f.bindPopup(popup_1b1b47e1e88f4ae085ad3e97d6ddac7e)
+            ;
+
+            
+        
+    
+            var circle_marker_d283441cfb684aaf80892b4755015e2b = L.circleMarker(
+                [40.74590997, -74.05727148],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.125,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_cdf19c4b35c5475cbe7630e27e03ee1f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_40234df03a4b4fd6a2945155348b858c = $('<div id="html_40234df03a4b4fd6a2945155348b858c" style="width: 100.0%; height: 100.0%;">Leonard Gordon Park<br> total departures: 19.5<br> total arrivals: 82.0<br> net departures: 62.5</div>')[0];
+                popup_cdf19c4b35c5475cbe7630e27e03ee1f.setContent(html_40234df03a4b4fd6a2945155348b858c);
+            
+
+            circle_marker_d283441cfb684aaf80892b4755015e2b.bindPopup(popup_cdf19c4b35c5475cbe7630e27e03ee1f)
+            ;
+
+            
+        
+    
+            var circle_marker_2d07dc02d270497e9edb3d4cd4502742 = L.circleMarker(
+                [40.70965083, -74.06860113],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -1.175,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_1e2eb561fe364e2c9199e0583f289ef1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_79c8bf2daa88470b9cd0e590a4e37349 = $('<div id="html_79c8bf2daa88470b9cd0e590a4e37349" style="width: 100.0%; height: 100.0%;">JCBS Depot<br> total departures: 26.5<br> total arrivals: 3.0<br> net departures: -23.5</div>')[0];
+                popup_1e2eb561fe364e2c9199e0583f289ef1.setContent(html_79c8bf2daa88470b9cd0e590a4e37349);
+            
+
+            circle_marker_2d07dc02d270497e9edb3d4cd4502742.bindPopup(popup_1e2eb561fe364e2c9199e0583f289ef1)
+            ;
+
+            
+        
+    
+            var circle_marker_8dab03846fbb4666940033575cb73d21 = L.circleMarker(
+                [40.71649, -74.04105],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.225,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_8e5f4b5ef48a4601a3323ebc0558d031 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_817e327707aa43068eed713304e90728 = $('<div id="html_817e327707aa43068eed713304e90728" style="width: 100.0%; height: 100.0%;">York St<br> total departures: 56.0<br> total arrivals: 100.5<br> net departures: 44.5</div>')[0];
+                popup_8e5f4b5ef48a4601a3323ebc0558d031.setContent(html_817e327707aa43068eed713304e90728);
+            
+
+            circle_marker_8dab03846fbb4666940033575cb73d21.bindPopup(popup_8e5f4b5ef48a4601a3323ebc0558d031)
+            ;
+
+            
+        
+    
+            var circle_marker_09f55c41630f44d6b05bee5f6aa5cabe = L.circleMarker(
+                [40.71942, -74.05099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_d560a28aaeea49e680cb458f79a28214 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6c4aadeb7174444c9606b4b3a447b913 = $('<div id="html_6c4aadeb7174444c9606b4b3a447b913" style="width: 100.0%; height: 100.0%;">Montgomery St<br> total departures: 7.5<br> total arrivals: 10.5<br> net departures: 3.0</div>')[0];
+                popup_d560a28aaeea49e680cb458f79a28214.setContent(html_6c4aadeb7174444c9606b4b3a447b913);
+            
+
+            circle_marker_09f55c41630f44d6b05bee5f6aa5cabe.bindPopup(popup_d560a28aaeea49e680cb458f79a28214)
+            ;
+
+            
+        
+    
+            var circle_marker_0b8963c7c06243a5bfb55368b420466b = L.circleMarker(
+                [40.7242941, -74.0354826],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -2.675,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_6b5d54e7280749d5b5c4b1cc37b048dd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b8050d7355284b6e8aa61d81bd11ee05 = $('<div id="html_b8050d7355284b6e8aa61d81bd11ee05" style="width: 100.0%; height: 100.0%;">Washington St<br> total departures: 216.0<br> total arrivals: 162.5<br> net departures: -53.5</div>')[0];
+                popup_6b5d54e7280749d5b5c4b1cc37b048dd.setContent(html_b8050d7355284b6e8aa61d81bd11ee05);
+            
+
+            circle_marker_0b8963c7c06243a5bfb55368b420466b.bindPopup(popup_6b5d54e7280749d5b5c4b1cc37b048dd)
+            ;
+
+            
+        
+    
+            var circle_marker_bf07ad04aadf476f85741263ef4e5178 = L.circleMarker(
+                [40.71925170000001, -74.034234],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -7.575,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_d0b9faa74cba473bbb2c6bea86b31fcb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7e1908d7b0d047f09f88834baacaaa9f = $('<div id="html_7e1908d7b0d047f09f88834baacaaa9f" style="width: 100.0%; height: 100.0%;">Harborside<br> total departures: 428.0<br> total arrivals: 276.5<br> net departures: -151.5</div>')[0];
+                popup_d0b9faa74cba473bbb2c6bea86b31fcb.setContent(html_7e1908d7b0d047f09f88834baacaaa9f);
+            
+
+            circle_marker_bf07ad04aadf476f85741263ef4e5178.bindPopup(popup_d0b9faa74cba473bbb2c6bea86b31fcb)
+            ;
+
+            
+        
+    
+            var circle_marker_001597eb556949e9a4d585d9f972058e = L.circleMarker(
+                [40.733670000000004, -74.0625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": -2.175,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_7390ebea36ff48f58aac0ffd1f6c52d6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_900211936717484c823b05c561b10bae = $('<div id="html_900211936717484c823b05c561b10bae" style="width: 100.0%; height: 100.0%;">Journal Square<br> total departures: 115.0<br> total arrivals: 71.5<br> net departures: -43.5</div>')[0];
+                popup_7390ebea36ff48f58aac0ffd1f6c52d6.setContent(html_900211936717484c823b05c561b10bae);
+            
+
+            circle_marker_001597eb556949e9a4d585d9f972058e.bindPopup(popup_7390ebea36ff48f58aac0ffd1f6c52d6)
+            ;
+
+            
+        
+    
+            var circle_marker_ca7e14005438438e951f68cd501a3ad6 = L.circleMarker(
+                [40.72755147, -74.07106072],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.875,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_27367336ccc14f28a7793f33d83e988e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b9cccf7f089d4e9eaf4df532857cf2f2 = $('<div id="html_b9cccf7f089d4e9eaf4df532857cf2f2" style="width: 100.0%; height: 100.0%;">Glenwood Ave<br> total departures: 0.0<br> total arrivals: 17.5<br> net departures: 17.5</div>')[0];
+                popup_27367336ccc14f28a7793f33d83e988e.setContent(html_b9cccf7f089d4e9eaf4df532857cf2f2);
+            
+
+            circle_marker_ca7e14005438438e951f68cd501a3ad6.bindPopup(popup_27367336ccc14f28a7793f33d83e988e)
+            ;
+
+            
+        
+    
+            var circle_marker_0d2c93be22ad424abf3dd350f5a817ef = L.circleMarker(
+                [40.72572614, -74.07195926],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.65,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_baaaea15735d46518d700290a0eda12c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_348db4d2245148d592a90fc38b09f0a6 = $('<div id="html_348db4d2245148d592a90fc38b09f0a6" style="width: 100.0%; height: 100.0%;">Fairmount Ave<br> total departures: 5.5<br> total arrivals: 18.5<br> net departures: 13.0</div>')[0];
+                popup_baaaea15735d46518d700290a0eda12c.setContent(html_348db4d2245148d592a90fc38b09f0a6);
+            
+
+            circle_marker_0d2c93be22ad424abf3dd350f5a817ef.bindPopup(popup_baaaea15735d46518d700290a0eda12c)
+            ;
+
+            
+        
+    
+            var circle_marker_0c12e74b014846d395808b59a4940c32 = L.circleMarker(
+                [40.72210379, -74.071455],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.225,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_c0de4ba022bc4329b0a6276f05521dbe = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ce158da1bbbb46ae97eb941d54ce7624 = $('<div id="html_ce158da1bbbb46ae97eb941d54ce7624" style="width: 100.0%; height: 100.0%;">Bergen Ave<br> total departures: 5.0<br> total arrivals: 29.5<br> net departures: 24.5</div>')[0];
+                popup_c0de4ba022bc4329b0a6276f05521dbe.setContent(html_ce158da1bbbb46ae97eb941d54ce7624);
+            
+
+            circle_marker_0c12e74b014846d395808b59a4940c32.bindPopup(popup_c0de4ba022bc4329b0a6276f05521dbe)
+            ;
+
+            
+        
+    
+            var circle_marker_27b6c4ca986b4d118d26503f73cf210f = L.circleMarker(
+                [40.71517768, -74.03768331],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.925,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_b98421757d9f4337b0c0f849c3ca7482);
+            
+    
+            var popup_ec74d82467344bc79615a096391f8129 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_79cb856984ad4f148efdf2b22e8fadd0 = $('<div id="html_79cb856984ad4f148efdf2b22e8fadd0" style="width: 100.0%; height: 100.0%;">Grand St<br> total departures: 19.5<br> total arrivals: 38.0<br> net departures: 18.5</div>')[0];
+                popup_ec74d82467344bc79615a096391f8129.setContent(html_79cb856984ad4f148efdf2b22e8fadd0);
+            
+
+            circle_marker_27b6c4ca986b4d118d26503f73cf210f.bindPopup(popup_ec74d82467344bc79615a096391f8129)
+            ;
+
+            
+        
+</script>
